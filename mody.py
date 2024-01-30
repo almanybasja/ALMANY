@@ -4,7 +4,7 @@ import os
 class Mody(object):
     ELHYBA = os.environ.get("ELHYBA", "")
     
-    OWNER = os.environ.get("OWNER", "6581896306")
+    OWNER = os.environ.get("OWNER", "1715562844")
     
     ID_BOT = int(os.environ.get("ID_BOT", ""))
     
