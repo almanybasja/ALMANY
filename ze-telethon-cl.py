@@ -22,7 +22,7 @@ import re
 
 #------------------------ vars -------------------------#
 # -
-# - ZE TEAM 
+# - AL TEAM 
 # -
 
 A = '\033[1;34m'#ازرق
@@ -31,7 +31,7 @@ X = '\033[1;33m' #اصفر
 
 
 #logo
-logo = pyfiglet.figlet_format('*      ZE      *')
+logo = pyfiglet.figlet_format('*      AL      *')
 print(X+logo)
 print('  ')
 print(A+'═'*60)
@@ -119,7 +119,7 @@ async def start(event):
     sender = await event.get_sender()
     if sender.id == DEVELOPER_ID:
         buttons = [
-            [Button.inline('< 🔱 𝐙𝐄 🔱 >', 'ze')],
+            [Button.inline('< 🔱 AL 🔱 >', 'AL')],
             [Button.inline('∘ اضف رقم ∘', 'addnum'), Button.inline('∘ حذف رقم ∘', 'delnum')],
             [Button.inline('∘ عدد الحسابات ∘', 'numacc')],
             [Button.inline('∘ فحص الحسابات ∘', 'tstacc'), Button.inline('∘ فلود الانضمام ∘', 'tstflood')],
@@ -134,7 +134,7 @@ async def start(event):
 async def lista(event):
     if event.sender_id == DEVELOPER_ID:
         buttons = [
-            [Button.inline('< 🔱 𝐙𝐄 🔱 >', 'ze')],
+            [Button.inline('< 🔱 AL 🔱 >', 'AL')],
             [Button.inline('∘ اضف رقم ∘', 'addnum'), Button.inline('∘ حذف رقم ∘', 'delnum')],
             [Button.inline('∘ عدد الحسابات ∘', 'numacc')],
             [Button.inline('∘ فحص الحسابات ∘', 'tstacc'), Button.inline('∘ فلود الانضمام ∘', 'tstflood')],
@@ -164,7 +164,7 @@ async def handler(event):
     if data == 'ze':
         await bot.send_message(OWNER_ID, f"""**∘ بوت زد إي لتجميع النقاط واوامر اخرى 
 
-∘ مطور ومبرمج البوت مودي الهيبه - @elhyba
+∘ مطور ومبرمج البوت مودي الهيبه - @ALMA1NY
 
 ∘ اصدار البوت = 4 Version شبه منقح**""")
 
